@@ -22,7 +22,7 @@
   </extensions>
   <extensions>
     <extendedObject href="WebShopAsync.bpel#/"/>
-    <extensionObject xsi:type="org.eclipse.bpel.ui.uiextensionmodel:ProcessExtension" modificationStamp="1481486894387" processName="{http://iaas.uni-stuttgart.de/labs/FlowSOG}WebShopAsync" processVersion="2"/>
+    <extensionObject xsi:type="org.eclipse.bpel.ui.uiextensionmodel:ProcessExtension" modificationStamp="1481487061797" processName="{http://iaas.uni-stuttgart.de/labs/FlowSOG}WebShopAsync" processVersion="4"/>
   </extensions>
   <extensions>
     <extendedObject href="WebShopAsync.bpel#//@activity/@activities.1"/>
@@ -262,6 +262,10 @@
   </extensions>
   <extensions>
     <extendedObject href="WebShopAsync.bpel#//@activity/@activities.5/@copy.2"/>
+    <extensionObject xsi:type="org.eclipse.bpel.ui.uiextensionmodel:CopyExtension"/>
+  </extensions>
+  <extensions>
+    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.3/@copy.2"/>
     <extensionObject xsi:type="org.eclipse.bpel.ui.uiextensionmodel:CopyExtension"/>
   </extensions>
 </extensionmodel:ExtensionMap>
