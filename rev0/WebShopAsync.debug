@@ -3,5 +3,6 @@
   <globalBreakpoints/>
   <localBreakpoints>
     <breakpoint name="" targetXPath="/process/sequence[1]/receive[1]" targetName="receiveInput"/>
+    <breakpoint name="" targetXPath="/process/sequence[1]/flow[1]/sequence[1]/flow[1]/sequence[1]" targetName="Sequence"/>
   </localBreakpoints>
 </bpdb:Debug>

@@ -20,6 +20,15 @@
     <vprop:propertyAlias messageType="tns:onFinishCheckAvailabilityInput" part="onFinishCheckAvailabilityInput" propertyName="tns:customerID">
     <vprop:query><![CDATA[/tns:customerId]]></vprop:query>
   </vprop:propertyAlias>
+    <plnk:partnerLinkType name="OrderServicePartner">
+    <plnk:role name="OrderProvider" portType="tns:OrderPortType"/>
+  </plnk:partnerLinkType>
+    <plnk:partnerLinkType name="PaymentServicePartner">
+    <plnk:role name="PaymentProvider" portType="tns:PaymentPortType"/>
+  </plnk:partnerLinkType>
+    <plnk:partnerLinkType name="ShipmentServicePartner">
+    <plnk:role name="ShipmentProvider" portType="tns:ShipmentPortType"/>
+  </plnk:partnerLinkType>
     <import location="BPMLabServices.wsdl" namespace="http://iaas.uni-stuttgart.de/labs/FlowSOG"/>
     <types>
 		<schema xmlns="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://iaas.uni-stuttgart.de/labs/FlowSOG">
@@ -79,7 +88,7 @@
 				<sequence>
 					<element name="bankName" type="string"/>
 					<element name="bankAddress" type="string"/>
-					<element name="accountNumber" type="int"/>
+					<element name="accountNumber" type="string"/>
 					<element name="accountHolderName" type="string"/>
 				</sequence>
 			</complexType>
