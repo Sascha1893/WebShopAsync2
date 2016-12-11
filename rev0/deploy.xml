@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy xmlns="http://www.apache.org/ode/schemas/dd/2007/03" xmlns:FlowSOG="http://iaas.uni-stuttgart.de/labs/FlowSOG">
+  <process name="FlowSOG:WebShopAsync">
+    <metaData>
+      <mdProperty name="value" value="1"/>
+    </metaData>
+    <active>true</active>
+    <retired>false</retired>
+    <process-events generate="all"/>
+    <provide partnerLink="client">
+      <service name="FlowSOG:WebShopAsyncService" port="WebShopAsyncPort"/>
+    </provide>
+    <provide partnerLink="InventoryServicePartner">
+      <service name="FlowSOG:InventoryCallbackService" port="InventoryCallbackPort"/>
+    </provide>
+    <invoke partnerLink="InventoryServicePartner">
+      <service name="FlowSOG:InventoryService" port="InventoryPort"/>
+    </invoke>
+  </process>
+</deploy>

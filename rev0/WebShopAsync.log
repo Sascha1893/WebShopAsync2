@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bplog:Log xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bplog="http://simtech.de/bpel/logging" processModelName="WebShopAsync" processModelPath="C:\workspace\WebShopAsync2\rev0\WebShopAsync.bpel">
+  <modelChange xsi:type="bplog:ValueChange" changeReason="AttributeChanged" timestamp="2016-12-11T18:35:46.599+0100">
+    <containingElement elementType="reply" elementName="replyOutput" elementXPath="/process/sequence[1]/reply[1]"/>
+    <attribute attributeName="variable" oldValue="" newValue="output"/>
+  </modelChange>
+  <modelChange xsi:type="bplog:ValueChange" changeReason="AttributeChanged" timestamp="2016-12-11T18:38:14.545+0100">
+    <containingElement elementType="receive" elementName="ReceiveAsyncVorhanden" elementXPath="/process/sequence[1]/receive[2]"/>
+    <attribute attributeName="variable" oldValue="" newValue="InventoryServicePartnerRequest1"/>
+  </modelChange>
+  <modelChange xsi:type="bplog:StructuralChange" changeReason="ElementAdded" timestamp="2016-12-11T18:39:01.986+0100">
+    <parentElement elementType="assign" elementName="AssignAsyncVorhanden" elementXPath="/process/sequence[1]/assign[2]"/>
+    <newElement elementType="copy" elementName="" elementXPath="/process/sequence[1]/assign[2]/copy[4]"/>
+  </modelChange>
+  <modelChange xsi:type="bplog:StructuralChange" changeReason="ElementAdded" timestamp="2016-12-11T18:39:02.002+0100">
+    <parentElement elementType="copy" elementName="" elementXPath="/process/sequence[1]/assign[2]/copy[4]"/>
+    <newElement elementType="from" elementName=""/>
+  </modelChange>
+  <modelChange xsi:type="bplog:StructuralChange" changeReason="ElementAdded" timestamp="2016-12-11T18:39:02.016+0100">
+    <parentElement elementType="copy" elementName="" elementXPath="/process/sequence[1]/assign[2]/copy[4]"/>
+    <newElement elementType="to" elementName=""/>
+  </modelChange>
+  <modelChange xsi:type="bplog:StructuralChange" changeReason="ElementRemoved" timestamp="2016-12-11T18:39:03.660+0100">
+    <parentElement elementType="copy" elementName="" elementXPath="/process/sequence[1]/assign[2]/copy[4]"/>
+    <oldElement elementType="from" elementName="" elementXPath="/process/sequence[1]/assign[2]/copy[4]/from[1]"/>
+  </modelChange>
+  <modelChange xsi:type="bplog:StructuralChange" changeReason="ElementAdded" timestamp="2016-12-11T18:39:03.660+0100">
+    <parentElement elementType="copy" elementName="" elementXPath="/process/sequence[1]/assign[2]/copy[4]"/>
+    <newElement elementType="from" elementName=""/>
+  </modelChange>
+  <modelChange xsi:type="bplog:ValueChange" changeReason="TextChanged" timestamp="2016-12-11T18:39:06.659+0100">
+    <containingElement elementType="from" elementName=""/>
+    <attribute attributeName="text" newValue="('http://localhost:8080/ode/processes/InventoryService/callback')"/>
+  </modelChange>
+  <modelChange xsi:type="bplog:ValueChange" changeReason="AttributeChanged" timestamp="2016-12-11T18:39:06.663+0100">
+    <containingElement elementType="from" elementName=""/>
+    <attribute attributeName="expressionLanguage" oldValue=""/>
+  </modelChange>
+  <modelChange xsi:type="bplog:ValueChange" changeReason="AttributeChanged" timestamp="2016-12-11T18:39:07.380+0100">
+    <containingElement elementType="to" elementName="" elementXPath="/process/sequence[1]/assign[2]/copy[4]/to[1]"/>
+    <attribute attributeName="variable" oldValue=""/>
+  </modelChange>
+  <modelChange xsi:type="bplog:ValueChange" changeReason="AttributeChanged" timestamp="2016-12-11T18:39:07.382+0100">
+    <containingElement elementType="to" elementName="" elementXPath="/process/sequence[1]/assign[2]/copy[4]/to[1]"/>
+    <attribute attributeName="part" oldValue=""/>
+  </modelChange>
+  <modelChange xsi:type="bplog:ValueChange" changeReason="AttributeChanged" timestamp="2016-12-11T18:39:07.384+0100">
+    <containingElement elementType="to" elementName="" elementXPath="/process/sequence[1]/assign[2]/copy[4]/to[1]"/>
+    <attribute attributeName="property" oldValue=""/>
+  </modelChange>
+  <modelChange xsi:type="bplog:ValueChange" changeReason="AttributeChanged" timestamp="2016-12-11T18:39:07.388+0100">
+    <containingElement elementType="to" elementName="" elementXPath="/process/sequence[1]/assign[2]/copy[4]/to[1]"/>
+    <attribute attributeName="part" oldValue="" newValue="checkAvailabilityAsyncInput"/>
+  </modelChange>
+  <modelChange xsi:type="bplog:ValueChange" changeReason="AttributeChanged" timestamp="2016-12-11T18:39:07.402+0100">
+    <containingElement elementType="to" elementName="" elementXPath="/process/sequence[1]/assign[2]/copy[4]/to[1]"/>
+    <attribute attributeName="variable" oldValue="" newValue="InventoryServicePartnerRequest"/>
+  </modelChange>
+  <modelChange xsi:type="bplog:ValueChange" changeReason="TextChanged" timestamp="2016-12-11T19:58:11.340+0100">
+    <containingElement elementType="from" elementName="" elementXPath="/process/sequence[1]/assign[2]/copy[4]/from[1]"/>
+    <attribute attributeName="text" oldValue="('http://localhost:33035/ode/processes/WebShopAsync/callback')" newValue="('http://localhost:33100/ode/processes/WebShopAsyncCall')"/>
+  </modelChange>
+  <modelChange xsi:type="bplog:ValueChange" changeReason="AttributeChanged" timestamp="2016-12-11T19:58:11.349+0100">
+    <containingElement elementType="from" elementName="" elementXPath="/process/sequence[1]/assign[2]/copy[4]/from[1]"/>
+    <attribute attributeName="expressionLanguage" oldValue=""/>
+  </modelChange>
+  <modelChange xsi:type="bplog:ValueChange" changeReason="AttributeChanged" timestamp="2016-12-11T19:58:11.354+0100">
+    <containingElement elementType="from" elementName="" elementXPath="/process/sequence[1]/assign[2]/copy[4]/from[1]"/>
+    <attribute attributeName="expressionLanguage" oldValue=""/>
+  </modelChange>
+</bplog:Log>
