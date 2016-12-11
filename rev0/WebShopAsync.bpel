@@ -318,7 +318,7 @@
                                             </bpel:to>
                                         </bpel:copy>
                                     </bpel:assign>
-                                    <bpel:reply name="Reply" partnerLink="client" operation="process" portType="tns:WebShopAsync"></bpel:reply>
+                                    <bpel:reply name="Reply" partnerLink="client" operation="process" portType="tns:WebShopAsync" variable="output"></bpel:reply>
                                     <bpel:exit name="Exit"></bpel:exit>
                                 </bpel:sequence>
                             </bpel:if>
@@ -406,7 +406,7 @@
                 </bpel:to>
             </bpel:copy>
         </bpel:assign>
-        <bpel:reply name="replyOutput" partnerLink="client" operation="process" portType="tns:WebShopAsync" variable="output" />
+        <bpel:reply name="replyOutput" partnerLink="client" operation="process" portType="tns:WebShopAsync" variable="output"/>
     
     </bpel:sequence>
 </bpel:process>

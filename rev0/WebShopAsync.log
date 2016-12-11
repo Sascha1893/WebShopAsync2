@@ -704,4 +704,8 @@
     <containingElement elementType="to" elementName=""/>
     <attribute attributeName="variable" oldValue="" newValue="ShipmentServicePartnerRequest1"/>
   </modelChange>
+  <modelChange xsi:type="bplog:ValueChange" changeReason="AttributeChanged" timestamp="2016-12-11T22:03:05.222+0100">
+    <containingElement elementType="reply" elementName="Reply" elementXPath="/process/sequence[1]/flow[1]/sequence[2]/forEach[1]/scope[1]/sequence[1]/if[1]/sequence[1]/reply[1]"/>
+    <attribute attributeName="variable" oldValue="" newValue="output"/>
+  </modelChange>
 </bplog:Log>
