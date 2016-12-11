@@ -393,17 +393,17 @@
 </bpel:literal>
                 </bpel:from>
                 <bpel:to part="payload" variable="output">
-                    <bpel:query queryLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath1.0"><![CDATA[tns:outputOrder]]></bpel:query>
                 </bpel:to>
             
             </bpel:copy>
-            <bpel:copy><bpel:from>
-                    
-                    
+            
+            <bpel:copy>
+                <bpel:from>
                     <![CDATA[concat('Order with ID ', string($OrderServicePartnerResponse.storeOrderDetailsOutput/tns:orderId),' and total costs of ', string($PaymentServicePartnerRequest1.conductPaymentInput/tns:amount), ' is payed and shipped on ', string($ShipmentServicePartnerRequest1.shipProductsInput/tns:date))]]>
                 </bpel:from>
-                <bpel:to variable="output" part="payload"></bpel:to>
-            
+                <bpel:to part="payload" variable="output">
+                    <bpel:query queryLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath1.0"><![CDATA[tns:outputOrder]]></bpel:query>
+                </bpel:to>
             </bpel:copy>
         </bpel:assign>
         <bpel:reply name="replyOutput" partnerLink="client" operation="process" portType="tns:WebShopAsync" variable="output" />
