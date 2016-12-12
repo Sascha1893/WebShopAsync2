@@ -4,5 +4,7 @@
   <localBreakpoints>
     <breakpoint name="" targetXPath="/process/sequence[1]/receive[1]" targetName="receiveInput"/>
     <breakpoint name="" targetXPath="/process/sequence[1]/flow[1]/sequence[1]/flow[1]/sequence[1]" targetName="Sequence"/>
+    <breakpoint name="" targetXPath="/process/sequence[1]/flow[1]/sequence[1]/scope[1]/sequence[1]/invoke[1]" targetName="InvokeStoreOrder"/>
+    <breakpoint name="" targetXPath="/process/sequence[1]/flow[1]/sequence[1]/scope[1]/sequence[1]/invoke[1]/compensationHandler[1]/sequence[1]/compensate[1]"/>
   </localBreakpoints>
 </bpdb:Debug>

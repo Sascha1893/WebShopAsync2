@@ -10,7 +10,7 @@
   </extensions>
   <extensions>
     <extendedObject href="WebShopAsync.bpel#/"/>
-    <extensionObject xsi:type="org.eclipse.bpel.ui.uiextensionmodel:ProcessExtension" modificationStamp="1481490186406" processName="{http://iaas.uni-stuttgart.de/labs/FlowSOG}WebShopAsync" processVersion="1"/>
+    <extensionObject xsi:type="org.eclipse.bpel.ui.uiextensionmodel:ProcessExtension" modificationStamp="1481502007547" processName="{http://iaas.uni-stuttgart.de/labs/FlowSOG}WebShopAsync" processVersion="17"/>
   </extensions>
   <extensions>
     <extendedObject href="WebShopAsync.bpel#//@variables/@children.2"/>
@@ -85,36 +85,36 @@
     <extensionObject xsi:type="org.eclipse.bpel.ui.uiextensionmodel:ActivityExtension"/>
   </extensions>
   <extensions>
-    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.0/@activities.0/@copy.0"/>
+    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.0/@activities.0/@activity/@activities.0/@copy.0"/>
     <extensionObject xsi:type="org.eclipse.bpel.ui.uiextensionmodel:CopyExtension"/>
   </extensions>
   <extensions>
-    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.0/@activities.0/@copy.1"/>
+    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.0/@activities.0/@activity/@activities.0/@copy.1"/>
     <extensionObject xsi:type="org.eclipse.bpel.ui.uiextensionmodel:CopyExtension"/>
   </extensions>
   <extensions>
-    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.0/@activities.0/@copy.2"/>
+    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.0/@activities.0/@activity/@activities.0/@copy.2"/>
     <extensionObject xsi:type="org.eclipse.bpel.ui.uiextensionmodel:CopyExtension"/>
   </extensions>
   <extensions>
-    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.0/@activities.0/@copy.3"/>
+    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.0/@activities.0/@activity/@activities.0/@copy.3"/>
     <extensionObject xsi:type="org.eclipse.bpel.ui.uiextensionmodel:CopyExtension"/>
   </extensions>
   <extensions>
-    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.0/@activities.0/@copy.4"/>
+    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.0/@activities.0/@activity/@activities.0/@copy.4"/>
     <extensionObject xsi:type="org.eclipse.bpel.ui.uiextensionmodel:CopyExtension"/>
   </extensions>
   <extensions>
-    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.0/@activities.0"/>
+    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.0/@activities.0/@activity/@activities.0"/>
     <extensionObject xsi:type="org.eclipse.bpel.ui.uiextensionmodel:ActivityExtension"/>
   </extensions>
   <extensions>
-    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.0/@activities.1"/>
+    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.0/@activities.0/@activity/@activities.1"/>
     <extensionObject xsi:type="org.eclipse.bpel.ui.uiextensionmodel:ActivityExtension"/>
   </extensions>
   <extensions>
     <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.0"/>
-    <extensionObject xsi:type="org.eclipse.bpel.ui.uiextensionmodel:ActivityExtension" x="521" y="22"/>
+    <extensionObject xsi:type="org.eclipse.bpel.ui.uiextensionmodel:ActivityExtension" x="808" y="36"/>
   </extensions>
   <extensions>
     <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.1/@activities.0/@counterName"/>
@@ -149,23 +149,19 @@
     <extensionObject xsi:type="org.eclipse.bpel.ui.uiextensionmodel:ActivityExtension"/>
   </extensions>
   <extensions>
-    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.1/@activities.0/@activity/@activity/@activities.3/@activity/@activities.0/@copy.0"/>
+    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.1/@activities.0/@activity/@activity/@activities.3/@activity/@activities.0/@activity/@activities.0/@copy.0"/>
     <extensionObject xsi:type="org.eclipse.bpel.ui.uiextensionmodel:CopyExtension"/>
   </extensions>
   <extensions>
-    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.1/@activities.0/@activity/@activity/@activities.3/@activity/@activities.0/@copy.1"/>
+    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.1/@activities.0/@activity/@activity/@activities.3/@activity/@activities.0/@activity/@activities.0/@copy.1"/>
     <extensionObject xsi:type="org.eclipse.bpel.ui.uiextensionmodel:CopyExtension"/>
   </extensions>
   <extensions>
-    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.1/@activities.0/@activity/@activity/@activities.3/@activity/@activities.0"/>
+    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.1/@activities.0/@activity/@activity/@activities.3/@activity/@activities.0/@activity/@activities.0"/>
     <extensionObject xsi:type="org.eclipse.bpel.ui.uiextensionmodel:ActivityExtension"/>
   </extensions>
   <extensions>
-    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.1/@activities.0/@activity/@activity/@activities.3/@activity/@activities.1"/>
-    <extensionObject xsi:type="org.eclipse.bpel.ui.uiextensionmodel:ActivityExtension"/>
-  </extensions>
-  <extensions>
-    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.1/@activities.0/@activity/@activity/@activities.3/@activity/@activities.2"/>
+    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.1/@activities.0/@activity/@activity/@activities.3/@activity/@activities.0/@activity/@activities.1"/>
     <extensionObject xsi:type="org.eclipse.bpel.ui.uiextensionmodel:ActivityExtension"/>
   </extensions>
   <extensions>
@@ -194,7 +190,7 @@
   </extensions>
   <extensions>
     <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2"/>
-    <extensionObject xsi:type="org.eclipse.bpel.ui.uiextensionmodel:ActivityExtension" width="918" height="744"/>
+    <extensionObject xsi:type="org.eclipse.bpel.ui.uiextensionmodel:ActivityExtension" width="1565" height="896"/>
   </extensions>
   <extensions>
     <extendedObject href="WebShopAsync.bpel#//@activity/@activities.3/@copy.0"/>
@@ -253,71 +249,119 @@
     <extensionObject xsi:type="org.eclipse.bpel.ui.uiextensionmodel:ActivityExtension"/>
   </extensions>
   <extensions>
-    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.0/@activities.2/@activities.0/@activities.0/@copy.0"/>
+    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.0/@activities.1/@activities.0/@activities.0/@copy.0"/>
     <extensionObject xsi:type="org.eclipse.bpel.ui.uiextensionmodel:CopyExtension"/>
   </extensions>
   <extensions>
-    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.0/@activities.2/@activities.0/@activities.0/@copy.1"/>
+    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.0/@activities.1/@activities.0/@activities.0/@copy.1"/>
     <extensionObject xsi:type="org.eclipse.bpel.ui.uiextensionmodel:CopyExtension"/>
   </extensions>
   <extensions>
-    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.0/@activities.2/@activities.0/@activities.0"/>
+    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.0/@activities.1/@activities.0/@activities.0"/>
     <extensionObject xsi:type="org.eclipse.bpel.ui.uiextensionmodel:ActivityExtension"/>
   </extensions>
   <extensions>
-    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.0/@activities.2/@activities.0/@activities.1"/>
+    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.0/@activities.1/@activities.0/@activities.1"/>
     <extensionObject xsi:type="org.eclipse.bpel.ui.uiextensionmodel:ActivityExtension"/>
   </extensions>
   <extensions>
-    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.0/@activities.2/@activities.0"/>
+    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.0/@activities.1/@activities.0"/>
     <extensionObject xsi:type="org.eclipse.bpel.ui.uiextensionmodel:ActivityExtension" x="6" y="6"/>
   </extensions>
   <extensions>
-    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.0/@activities.2/@activities.1/@activities.0/@copy.0"/>
+    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.0/@activities.1/@activities.1/@activities.0/@copy.0"/>
     <extensionObject xsi:type="org.eclipse.bpel.ui.uiextensionmodel:CopyExtension"/>
   </extensions>
   <extensions>
-    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.0/@activities.2/@activities.1/@activities.0/@copy.1"/>
+    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.0/@activities.1/@activities.1/@activities.0/@copy.1"/>
     <extensionObject xsi:type="org.eclipse.bpel.ui.uiextensionmodel:CopyExtension"/>
   </extensions>
   <extensions>
-    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.0/@activities.2/@activities.1/@activities.0"/>
+    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.0/@activities.1/@activities.1/@activities.0"/>
     <extensionObject xsi:type="org.eclipse.bpel.ui.uiextensionmodel:ActivityExtension"/>
   </extensions>
   <extensions>
-    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.0/@activities.2/@activities.1/@activities.1"/>
+    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.0/@activities.1/@activities.1/@activities.1"/>
     <extensionObject xsi:type="org.eclipse.bpel.ui.uiextensionmodel:ActivityExtension"/>
   </extensions>
   <extensions>
-    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.0/@activities.2/@activities.1"/>
+    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.0/@activities.1/@activities.1"/>
     <extensionObject xsi:type="org.eclipse.bpel.ui.uiextensionmodel:ActivityExtension" x="236" y="1"/>
   </extensions>
   <extensions>
-    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.0/@activities.2/@activities.2/@activities.0/@copy.0"/>
+    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.0/@activities.1/@activities.2/@activities.0/@copy.0"/>
     <extensionObject xsi:type="org.eclipse.bpel.ui.uiextensionmodel:CopyExtension"/>
   </extensions>
   <extensions>
-    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.0/@activities.2/@activities.2/@activities.0/@copy.1"/>
+    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.0/@activities.1/@activities.2/@activities.0/@copy.1"/>
     <extensionObject xsi:type="org.eclipse.bpel.ui.uiextensionmodel:CopyExtension"/>
   </extensions>
   <extensions>
-    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.0/@activities.2/@activities.2/@activities.0"/>
+    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.0/@activities.1/@activities.2/@activities.0"/>
     <extensionObject xsi:type="org.eclipse.bpel.ui.uiextensionmodel:ActivityExtension"/>
   </extensions>
   <extensions>
-    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.0/@activities.2/@activities.2/@activities.1"/>
+    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.0/@activities.1/@activities.2/@activities.1"/>
     <extensionObject xsi:type="org.eclipse.bpel.ui.uiextensionmodel:ActivityExtension"/>
   </extensions>
   <extensions>
-    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.0/@activities.2/@activities.2"/>
+    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.0/@activities.1/@activities.2"/>
     <extensionObject xsi:type="org.eclipse.bpel.ui.uiextensionmodel:ActivityExtension" x="139" y="153"/>
   </extensions>
   <extensions>
-    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.0/@activities.2"/>
-    <extensionObject xsi:type="org.eclipse.bpel.ui.uiextensionmodel:ActivityExtension" width="564" height="362"/>
+    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.0/@activities.1"/>
+    <extensionObject xsi:type="org.eclipse.bpel.ui.uiextensionmodel:ActivityExtension" width="693" height="362"/>
   </extensions>
   <extensions>
     <extendedObject href="WebShopAsync.bpel#//@activity/@activities.7/@copy.1"/>
+    <extensionObject xsi:type="org.eclipse.bpel.ui.uiextensionmodel:CopyExtension"/>
+  </extensions>
+  <extensions>
+    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.0/@activities.0"/>
+    <extensionObject xsi:type="org.eclipse.bpel.ui.uiextensionmodel:ActivityExtension"/>
+  </extensions>
+  <extensions>
+    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.0/@activities.0/@activity"/>
+    <extensionObject xsi:type="org.eclipse.bpel.ui.uiextensionmodel:ActivityExtension"/>
+  </extensions>
+  <extensions>
+    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.0/@activities.0/@variables/@children.0"/>
+    <extensionObject xsi:type="org.eclipse.bpel.ui.uiextensionmodel:VariableExtension"/>
+  </extensions>
+  <extensions>
+    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.1/@activities.0/@activity/@activity/@activities.3/@activity/@activities.0"/>
+    <extensionObject xsi:type="org.eclipse.bpel.ui.uiextensionmodel:ActivityExtension"/>
+  </extensions>
+  <extensions>
+    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.1/@activities.0/@activity/@activity/@activities.3/@activity/@activities.0/@activity"/>
+    <extensionObject xsi:type="org.eclipse.bpel.ui.uiextensionmodel:ActivityExtension"/>
+  </extensions>
+  <extensions>
+    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.0/@activities.0/@activity/@activities.1/@compensationHandler/@activity"/>
+    <extensionObject xsi:type="org.eclipse.bpel.ui.uiextensionmodel:ActivityExtension"/>
+  </extensions>
+  <extensions>
+    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.0/@activities.0/@activity/@activities.1/@compensationHandler/@activity/@activities.0"/>
+    <extensionObject xsi:type="org.eclipse.bpel.ui.uiextensionmodel:ActivityExtension"/>
+  </extensions>
+  <extensions>
+    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.0/@activities.0/@activity/@activities.1/@compensationHandler/@activity/@activities.2"/>
+    <extensionObject xsi:type="org.eclipse.bpel.ui.uiextensionmodel:ActivityExtension"/>
+  </extensions>
+  <extensions>
+    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.1/@activities.0/@activity/@activity/@activities.3/@activity/@activities.0/@activity/@activities.2"/>
+    <extensionObject xsi:type="org.eclipse.bpel.ui.uiextensionmodel:ActivityExtension"/>
+  </extensions>
+  <extensions>
+    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.0/@activities.0/@activity/@activities.1/@compensationHandler/@activity/@activities.1"/>
+    <extensionObject xsi:type="org.eclipse.bpel.ui.uiextensionmodel:ActivityExtension"/>
+  </extensions>
+  <extensions>
+    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.0/@activities.0/@activity/@activities.1/@compensationHandler/@activity/@activities.1/@copy.0"/>
+    <extensionObject xsi:type="org.eclipse.bpel.ui.uiextensionmodel:CopyExtension"/>
+  </extensions>
+  <extensions>
+    <extendedObject href="WebShopAsync.bpel#//@activity/@activities.2/@activities.0/@activities.0/@activity/@activities.1/@compensationHandler/@activity/@activities.1/@copy.1"/>
     <extensionObject xsi:type="org.eclipse.bpel.ui.uiextensionmodel:CopyExtension"/>
   </extensions>
 </extensionmodel:ExtensionMap>
