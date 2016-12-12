@@ -10,7 +10,7 @@
   </extensions>
   <extensions>
     <extendedObject href="WebShopAsync.bpel#/"/>
-    <extensionObject xsi:type="org.eclipse.bpel.ui.uiextensionmodel:ProcessExtension" modificationStamp="1481502092669" processName="{http://iaas.uni-stuttgart.de/labs/FlowSOG}WebShopAsync" processVersion="19"/>
+    <extensionObject xsi:type="org.eclipse.bpel.ui.uiextensionmodel:ProcessExtension" modificationStamp="1481542478572" processName="{http://iaas.uni-stuttgart.de/labs/FlowSOG}WebShopAsync" processVersion="19"/>
   </extensions>
   <extensions>
     <extendedObject href="WebShopAsync.bpel#//@variables/@children.2"/>

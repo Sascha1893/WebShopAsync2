@@ -2080,4 +2080,28 @@
     <containingElement elementType="from" elementName=""/>
     <attribute attributeName="literal" newValue="&lt;FlowSOG:storeOrderDetails xmlns:FlowSOG=&quot;http://iaas.uni-stuttgart.de/labs/FlowSOG&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;>&#xD;&#xA;  &lt;FlowSOG:customerId>FlowSOG:customerId&lt;/FlowSOG:customerId>&#xD;&#xA;  &lt;FlowSOG:products>&#xD;&#xA;    &lt;FlowSOG:product>&#xD;&#xA;      &lt;FlowSOG:productId>FlowSOG:productId&lt;/FlowSOG:productId>&#xD;&#xA;      &lt;FlowSOG:numberOfItems>0&lt;/FlowSOG:numberOfItems>&#xD;&#xA;    &lt;/FlowSOG:product>&#xD;&#xA;  &lt;/FlowSOG:products>&#xD;&#xA;  &lt;FlowSOG:shippingAddress>FlowSOG:shippingAddress&lt;/FlowSOG:shippingAddress>&#xD;&#xA;  &lt;FlowSOG:paymentDetails>&#xD;&#xA;    &lt;FlowSOG:bankName>FlowSOG:bankName&lt;/FlowSOG:bankName>&#xD;&#xA;    &lt;FlowSOG:bankAddress>FlowSOG:bankAddress&lt;/FlowSOG:bankAddress>&#xD;&#xA;    &lt;FlowSOG:accountNumber>FlowSOG:accountNumber&lt;/FlowSOG:accountNumber>&#xD;&#xA;    &lt;FlowSOG:accountHolderName>FlowSOG:accountHolderName&lt;/FlowSOG:accountHolderName>&#xD;&#xA;  &lt;/FlowSOG:paymentDetails>&#xD;&#xA;  &lt;FlowSOG:status>ordered&lt;/FlowSOG:status>&#xD;&#xA;&lt;/FlowSOG:storeOrderDetails>"/>
   </modelChange>
+  <modelChange xsi:type="bplog:ValueChange" changeReason="TextChanged" timestamp="2016-12-12T12:33:39.488+0100">
+    <containingElement elementType="from" elementName="" elementXPath="/process/sequence[1]/flow[1]/sequence[2]/forEach[1]/scope[1]/sequence[1]/if[1]/sequence[1]/scope[1]/sequence[1]/assign[1]/copy[2]/from[1]"/>
+    <attribute attributeName="text" oldValue="concat('Product ',string($InventoryServicePartnerRequest1.onFinishCheckAvailabilityInput/tns:productList/tns:product/tns:name),' is not available. It will be available again in ', string($InventoryServicePartnerRequest1.onFinishCheckAvailabilityInput/tns:productList/tns:product/tns:status/tns:availableAgainInDays),' Days')" newValue="concat('The whole Order has been cancelled. The Product ',string($InventoryServicePartnerRequest1.onFinishCheckAvailabilityInput/tns:productList/tns:product/tns:name),' is not available. It will be available again in ', string($InventoryServicePartnerRequest1.onFinishCheckAvailabilityInput/tns:productList/tns:product/tns:status/tns:availableAgainInDays),' Days')"/>
+  </modelChange>
+  <modelChange xsi:type="bplog:ValueChange" changeReason="AttributeChanged" timestamp="2016-12-12T12:33:39.496+0100">
+    <containingElement elementType="from" elementName="" elementXPath="/process/sequence[1]/flow[1]/sequence[2]/forEach[1]/scope[1]/sequence[1]/if[1]/sequence[1]/scope[1]/sequence[1]/assign[1]/copy[2]/from[1]"/>
+    <attribute attributeName="expressionLanguage" oldValue=""/>
+  </modelChange>
+  <modelChange xsi:type="bplog:ValueChange" changeReason="AttributeChanged" timestamp="2016-12-12T12:33:39.502+0100">
+    <containingElement elementType="from" elementName="" elementXPath="/process/sequence[1]/flow[1]/sequence[2]/forEach[1]/scope[1]/sequence[1]/if[1]/sequence[1]/scope[1]/sequence[1]/assign[1]/copy[2]/from[1]"/>
+    <attribute attributeName="expressionLanguage" oldValue=""/>
+  </modelChange>
+  <modelChange xsi:type="bplog:ValueChange" changeReason="AttributeChanged" timestamp="2016-12-12T12:33:58.780+0100">
+    <containingElement elementType="from" elementName="" elementXPath="/process/sequence[1]/flow[1]/sequence[2]/forEach[1]/scope[1]/sequence[1]/if[1]/sequence[1]/scope[1]/sequence[1]/assign[1]/copy[2]/from[1]"/>
+    <attribute attributeName="expressionLanguage" oldValue=""/>
+  </modelChange>
+  <modelChange xsi:type="bplog:ValueChange" changeReason="AttributeChanged" timestamp="2016-12-12T12:34:08.666+0100">
+    <containingElement elementType="from" elementName="" elementXPath="/process/sequence[1]/flow[1]/sequence[2]/forEach[1]/scope[1]/sequence[1]/if[1]/sequence[1]/scope[1]/sequence[1]/assign[1]/copy[2]/from[1]"/>
+    <attribute attributeName="expressionLanguage" oldValue=""/>
+  </modelChange>
+  <modelChange xsi:type="bplog:ValueChange" changeReason="AttributeChanged" timestamp="2016-12-12T12:34:32.024+0100">
+    <containingElement elementType="from" elementName="" elementXPath="/process/sequence[1]/assign[4]/copy[2]/from[1]"/>
+    <attribute attributeName="expressionLanguage" oldValue=""/>
+  </modelChange>
 </bplog:Log>
