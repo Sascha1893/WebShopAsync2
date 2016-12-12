@@ -122,7 +122,6 @@
                         <bpel:copy>
                             <bpel:from>
                                     <bpel:literal xml:space="preserve"><FlowSOG:storeOrderDetails xmlns:FlowSOG="http://iaas.uni-stuttgart.de/labs/FlowSOG" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <FlowSOG:orderId>77</FlowSOG:orderId>
   <FlowSOG:customerId>FlowSOG:customerId</FlowSOG:customerId>
   <FlowSOG:products>
     <FlowSOG:product>
@@ -138,8 +137,7 @@
     <FlowSOG:accountHolderName>FlowSOG:accountHolderName</FlowSOG:accountHolderName>
   </FlowSOG:paymentDetails>
   <FlowSOG:status>ordered</FlowSOG:status>
-</FlowSOG:storeOrderDetails>
-</bpel:literal>
+</FlowSOG:storeOrderDetails></bpel:literal>
                                 </bpel:from>
                             <bpel:to variable="OrderServicePartnerRequest" part="storeOrderDetailsInput"></bpel:to>
                         </bpel:copy>
